@@ -113,6 +113,7 @@ p {
 
 .logo {
   font-size: 40px;
+  max-height: 40px;
 }
 .container {
   background: var(--secondary-color);
