@@ -1,12 +1,14 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #6b8a7a;
+  --secondary-color: #dad3be;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --text-color: #254336;
 }
 
 body {
   font-family: var(--default-font-family);
+  background: var(--secondary-color);
 }
 
 h1,
@@ -15,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: var(--text-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -48,7 +50,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--text-color);
 }
 
 .hero h2 {
@@ -112,9 +114,14 @@ p {
 .logo {
   font-size: 40px;
 }
+.container {
+  background: var(--secondary-color);
+}
 
 nav {
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  padding: 20px 100px;
+  background: var(--secondary-color);
 }
 
 nav ul {
@@ -131,7 +138,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--text-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -154,7 +161,7 @@ footer .contact-box p {
 }
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
   font-size: 24px;
 }
 footer .email-link:hover {
